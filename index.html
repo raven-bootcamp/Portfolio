@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Lee's Portfolio</title>
+    <link rel="icon" href="assets/raven.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+</head>
+<body>
+    <a id="about"></a>
+
+    <nav class="navbar is-dark is-fixed-top">
+        <div class="navbar-brand has-background-dark pl-3 pt-3">
+            <a href="/" class="navbar-item">
+                <h1 class="is-size-1 title has-text-white">Nick Lee <i class="fas fa-crow has-text-black"></i></h1>
+            </a>
+            <a class="navbar-burger is-large" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu has-background-dark" id="nav-links">
+            <div class="navbar-end has-background-dark pr-3">
+                <a href="#about" class="navbar-item has-text-white">About</a>
+                <a href="#portfolio" class="navbar-item has-text-white">Portfolio</a>
+                <a href="#contact" class="navbar-item has-text-white">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container mt-10">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-2-desktop has-text-centered">
+                    <h1 class="is-size-3-mobile is-size-2-desktop title has-text-white is-italic">About Me</h1>
+                </div>
+                <div class="column is-6-tablet is-6-desktop has-text-centered">
+                    <figure class="image">
+                        <img src="assets/Lee003.jpg" alt="main image" class="px-6">
+                    </figure>                    
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <p id="about">I am a Software Engineer in Test, with a career spanning over 15 years in a variety of different companies and environments.</p>
+                    <br>
+                    <p>Everything I have learned about coding so far in my career has been self-taught, because I identified a need or an opportunity. But I've never been officially trained.</p>
+                    <br>
+                    <p> Currently, I'm learning full stack web development via an online bootcamp during the evenings.  It is my hope that I can bring myself up to speed with my colleagues and teams at my current company. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h3 id="portfolio" class="title is-size-4 has-text-white is-italic has-text-centered">Portfolio</h3>
+            <div class="columns mt-5 is-8 is-variable is-centered">
+
+                <div class="column">
+                    <div class="card has-background-dark">
+                        <header class="card-header">
+                            <p class="card-header-title has-text-white is-centered">Password Generator</p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img id="password" src="assets/password.png" alt="Password Generator">
+                            </figure>
+                        </div>
+                        
+                        <footer class="card-footer">
+                            <a href="https://github.com/raven-bootcamp/week3-homework-pword-gen" target="_blank" class="card-footer-item has-text-warning">Code</a>
+                            <a href="https://raven-bootcamp.github.io/week3-homework-pword-gen/" target="_blank" class="card-footer-item has-text-warning">Deployment</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card has-background-dark">
+                        <header class="card-header">
+                            <p class="card-header-title has-text-white is-centered">Coding Quiz</p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img src="assets/quiz.png" alt="Coding Quiz">
+                            </figure>
+                        </div>
+                        
+                        <footer class="card-footer">
+                            <a href="https://github.com/raven-bootcamp/week4-homework-quiz" target="_blank" class="card-footer-item has-text-warning">Code</a>
+                            <a href="https://raven-bootcamp.github.io/week4-homework-quiz/" target="_blank" class="card-footer-item has-text-warning">Deployment</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card has-background-dark">
+                        <header class="card-header">
+                            <p class="card-header-title has-text-white is-centered">Weather Forecast</p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img src="assets/weather.png" alt="Weather Dashboard">
+                            </figure>
+                        </div>
+                        
+                        <footer class="card-footer">
+                            <a href="https://github.com/raven-bootcamp/week6-homework-weather" target="_blank" class="card-footer-item has-text-warning">Code</a>
+                            <a href="https://raven-bootcamp.github.io/week6-homework-weather/" target="_blank" class="card-footer-item has-text-warning">Deployment</a>
+                        </footer>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card has-background-dark">
+                        <header class="card-header">
+                            <p class="card-header-title has-text-white is-centered">Group Project: Recipe Search</p>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                              <img src="assets/recipes.png" alt="Recipe Search">
+                            </figure>
+                        </div>
+                       
+                        <footer class="card-footer">
+                            <a href="https://github.com/raven-bootcamp/group3-recipe-search" target="_blank" class="card-footer-item has-text-warning">Code</a>
+                            <a href="https://group3-recipe-search.herokuapp.com/" target="_blank" class="card-footer-item has-text-warning">Deployment</a>
+                        </footer>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+       <div class="container">
+        <h3 id="contact" class="title is-size-4 has-text-white is-italic has-text-centered">Contact</h3>
+           <div class="columns is-centered">
+               <div class="column is-4">
+                <div class="box has-background-dark has-text-white">
+                    <p><i class="far fa-envelope has-text-danger"></i><span class="has-text-weight-bold"> Email:  </span><a class="has-text-warning" href="mailto:nicholas.l.lee@outlook.com"> nicholas.l.lee@outlook.com</a></p>
+                    <p><i class="fas fa-mobile-alt has-text-danger"></i><span class="has-text-weight-bold"> Phone:  </span><a class="has-text-warning" href="tel:0411-222-333"> 0411 222 333</a></p>
+                    <!-- <p><i class="far fa-file-alt has-text-danger"></i><span class="has-text-weight-bold"> Resume:  </span><a class="has-text-warning" href="https://drive.google.com/file/d/1gimwbk97t7UGuZG3z_prqJaAhk_kCOto/view?usp=sharing" target="_blank">Google Drive</a></p> -->
+                    <p><i class="far fa-file-alt has-text-danger"></i><span class="has-text-weight-bold"> Resume:  </span><a class="has-text-warning" href="assets/Nicholas Lee - Resume.pdf" target="_blank">Google Drive</a></p>
+                  </div>
+               </div>
+               <div class="column is-2">
+                  <div class="box has-background-dark has-text-centered">
+                    <a href="https://github.com/raven-bootcamp" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span></a>
+                    <a href="https://www.linkedin.com/in/nicholasllee/" target="_blank"><img id="linkedin" src="assets/In-Blue-Logo.png.original.png" alt="linkedin"></a>                    
+                  </div>
+               </div>
+           </div>
+       </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="page-footer" class="footer has-background-dark">
+        <div class="content has-text-centered is-italic">
+            <p><i class="fas fa-crow has-text-black"></i> Copyright 2021 Nick Lee <i class="fas fa-crow has-text-black"></i></p>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/index.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+</html>
