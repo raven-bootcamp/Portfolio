@@ -1,4 +1,4 @@
-# Week8 Homework: Updated Portfolio
+# Week 8 Homework: Updated Portfolio
 My solution, hosted using Github Pages: https://raven-bootcamp.github.io/week8-homework-portfolio/
 
 The repository with my code: https://github.com/raven-bootcamp/week8-homework-portfolio
