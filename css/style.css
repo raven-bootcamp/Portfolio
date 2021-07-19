@@ -19,23 +19,23 @@ body {
     padding-top: 80px;
 }
 
+/* to override the Bulma defaults, which has a little too much padding for me, the whole thing was too big */
 #page-footer {
     padding: 2rem 1rem 4rem !important;
 }
 
+/* to center vertically */
 .is-vertical-center {
     display: flex;
     align-items: center;
 }
 
+/* to change the default Bulma colours that were messing with my theme */
 .navbar-item:hover {
   background-color: rgb(46, 44, 44) !important;
 }
 
-/* a {
-  color: lightskyblue;
-} */
-
+/* icon sizing */
 .iconify, #linkedin { 
   width: 50px; 
   height: 50px; 
