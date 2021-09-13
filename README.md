@@ -6,6 +6,8 @@ My solution, hosted using Github Pages: https://raven-bootcamp.github.io/Portfol
 The repository with my code: https://github.com/raven-bootcamp/Portfolio
 
 ## The Task
+Now that we have learned new skills and have built full stack applications, the time has come to update our portfolios.
+
 Part of being a web developer means being a part of a community. Having a place to share your projects is necessary if you're applying for jobs, but it's also critical on your journey as a developer.  
 
 ## My Approach
